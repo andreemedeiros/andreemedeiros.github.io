@@ -1,0 +1,51 @@
+.competencias1 {
+  margin-top: 100px; /* Espaçamento de 100px acima da classe de competências */
+}
+
+.competencias2 {
+  margin-top: 20px; /* Espaçamento de 20px acima da classe de competências */
+}
+
+.competencias1 h3 {
+  font-size: 20px; /* Tamanho do título */
+  margin-top: 100px; /* Espaçamento acima do título */
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.competencias1 ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding-left: 0; /* Remove o recuo padrão da lista */
+}
+
+.competencias1 li {
+  margin-bottom: 5px; /* Espaçamento entre os pontos */
+}
+
+.competencias1 li::before {
+  content: "\2022"; /* Adiciona um ponto antes de cada item da lista */
+  margin-right: 5px; /* Adiciona um espaçamento entre o ponto e o texto */
+  font-size: 20px; /* Tamanho do ponto */
+  color: #000000; /* Cor do ponto (preto) */
+}
+
+.competencias2 h3 {
+  font-size: 20px; /* Tamanho do título */
+  margin-top: 80px; /* Espaçamento acima do título */
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.competencias2 ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding-left: 0; /* Remove o recuo padrão da lista */
+}
+
+.competencias2 li {
+  margin-bottom: 5px; /* Espaçamento entre os pontos */
+}
+
+.competencias2 li::before {
+  content: "\2022"; /* Adiciona um ponto antes de cada item da lista */
+  margin-right: 5px; /* Adiciona um espaçamento entre o ponto e o texto */
+  font-size: 20px; /* Tamanho do ponto */
+  color: #000000; /* Cor do ponto (preto) */
+}

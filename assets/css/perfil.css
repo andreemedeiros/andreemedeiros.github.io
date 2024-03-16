@@ -1,0 +1,28 @@
+.perfil-container {
+  display: flex; /* Utiliza flexbox para organizar os elementos */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  justify-content: center; /* Alinha os itens horizontalmente ao centro */
+  flex-direction: column; /* Organiza os itens em coluna */
+}
+
+.perfil {
+  width: 250px; /* Defina a largura desejada para a imagem */
+  height: 250px; /* Defina a altura desejada para a imagem */
+  border-radius: 50%; /* Isso cria o efeito de círculo */
+  overflow: hidden; /* Isso garante que a imagem seja cortada no formato de círculo */
+}
+
+.informacoes {
+  margin-top: 10px; /* Espaçamento superior para separar a imagem do subtítulo */
+}
+
+.informacoes h2 {
+  font-size: 24px; /* Tamanho da fonte para o título */
+  margin-bottom: 5px; /* Espaçamento inferior entre o título e os subtítulos */
+}
+
+.informacoes h4 {
+  font-size: 16px; /* Tamanho da fonte para os subtítulos */
+  margin: 0; /* Remove margens padrão dos subtítulos */
+}
+
