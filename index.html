@@ -5,540 +5,347 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <!-------------------- primary meta tags -------------------->
   <title>André Medeiros - Portfolio</title>
   <meta name="title" content="André Medeiros - Desenvolvedor">
   <meta name="description" content="This is a blog html template made by codewithsadee">
-
+  <!-------------------- Bootstrap -------------------->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-------------------- favicon -------------------->
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
   <!-------------------- google font link -------------------->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
-
   <!--------------------custom css link -------------------->
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/perfil.css">
   <link rel="stylesheet" href="./assets/css/competencias.css">
-
   <!-------------------- preload images -------------------->
   <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
   <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
-
 </head>
 
-
-
 <body>
-
   <!----------------------------- HEADER ---------------------------->
   <header class="header" data-header>
     <div class="container">
-
       <a href="#" class="headline headline-3 section-title">
         André Medeiros
       </a>
-
       <nav class="navbar" data-navbar>
-
-        <div class="navbar-top">
-          <a href="#" class="headline headline-3 section-title">
-            André Medeiros
-          </a>
-        </div>
-
         <ul class="navbar-list">
-
           <li>
             <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
           </li>
-
           <li>
-            <a href="#projects" class="navbar-link hover-1" data-nav-toggler>Projects</a>
+            <a href="#about" class="navbar-link hover-2" data-nav-toggler>About</a>
           </li>
-
           <li>
-            <a href="#footer" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+            <a href="#projects" class="navbar-link hover-3" data-nav-toggler>Projects</a>
           </li>
-
+          <li>
+            <a href="#footer" class="navbar-link hover-4" data-nav-toggler>Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
   </header>
-
-
-
-
-
-
-  <!----------------------------- MAIN/HERO ---------------------------->
-  <main>
-    <article>
-      <section class="hero" id="home" aria-label="home">
-        <div class="container">
-          <div class="hero-content">
-
-            <h1 class="headline headline-1 section-title">
-              <span class="span">About</span>
-            </h1>
-
-            <p class="hero-text">
-              I am currently an Electrical Engineering student, constantly staying up-to-date on technologies in the
-              fields
-              of electronics, automation, and programming. I am always motivated to find new and better ways to complete
-              a
-              task, seeking optimized solutions and deeply committed to developing myself professionally.
-            </p>
-
-          </div>
-
-          <div class="hero-banner">
-            <div class="perfil-container">
-              <img class="perfil" src="./assets/images/autor.png" alt="André">
-              <div class="informacoes">
-                <h2>André Medeiros</h2>
-                <h4>Undergraduate in Electrical Engineering</h4>
-                <h4>Campina Grande - Paraíba, Brazil</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container">
-
-          <div class="competencias1">
-            <h3>Interests</h3>
-            <ul>
-              <li>Software development</li>
-              <li>Hardware development</li>
-              <li>Web development</li>
-              <li>Embedded Systems</li>
-              <li>RTOS (Real Time Operating Systems)</li>
-              <li>Linux</li>
-              <li>Shell</li>
-              <li>Script</li>
-              <li>Git</li>
-              <li>Hardware RTL Design</li>
-              <li>Funcional Verification</li>
-              <li>UVM (Universal Verification Methodology)</li>
-              <li>FPGA</li>
-              <li>ASIC</li>
-              <li>SoC</li>
-            </ul>
-          </div>
-
-
-          <div class="competencias2">
-            <h3>Academic Education</h3>
-            <ul>
-              <li>BSc in Electrical Engineering, 2026</li>
-              <li>TI in Analysis and Systems Development, 2024</li>
-            </ul>
-
-            <h3>Trainings Certification</h3>
-            <ul>
-              <li>C++ Language Fundamentals v21.03 Exam, 2023</li>
-              <li>SystemVerilog Accelerated Verification with UVM v1.2.5 Exam, 2023</li>
-            </ul>
-          </div>
-
-
-        </div>
-
-        <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
-        <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
-
-      </section>
-
-
-
-
-
-
-      <!--------------------------- PROJETOS --------------------------------->
-      <section class="section feature" aria-label="feature" id="featured">
-        <div class="container">
-
-          <h2 class="headline headline-2 section-title">
-            <span class="span">Projects</span>
-          </h2>
-
-          <p class="section-text">
-            Project portfolio
+  <!----------------------------- MAIN ---------------------------->
+  <main class="container">
+    <section class="hero" id="home" aria-label="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="headline headline-1 section-title">
+            <span class="span">About</span>
+          </h1>
+          <p class="hero-text">
+            I am a motivated professional in search of better ways to carry out tasks, always focused on finding
+            optimized solutions and committed to my continuous development.
           </p>
-
-          <ul class="feature-list">
-
-            <!--- CPU MIPS --->
-            <li>
-              <div class="card feature-card">
-
-                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
-                  <img src="./assets/images/cpu.png" width="1602" height="903" loading="lazy"
-                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-wrapper">
-                    <div class="card-tag">
-                      <a href="#" class="span hover-2">#CPU</a>
-
-                      <a href="#" class="span hover-2">#MIPS</a>
-                    </div>
-
-                    <div class="wrapper">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">3 mins read</span>
-                    </div>
-                  </div>
-
-                  <h3 class="headline headline-3">
-                    <a href="https://github.com/andreemedeiros/CPU-MIPS" class="card-title hover-2">
-                      CPU-MIPS
-                    </a>
-                  </h3>
-
-                  <div class="card-wrapper">
-
-                    <div class="profile-card">
-                      <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
-                        class="profile-banner">
-
-                      <div>
-                        <p class="card-title">André</p>
-
-                        <p class="card-subtitle">25 Nov 2022</p>
-                      </div>
-                    </div>
-
-                    <a href="https://github.com/andreemedeiros/CPU-MIPS" class="card-btn">Read more</a>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <!--- UVM --->
-            <li>
-              <div class="card feature-card">
-
-                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
-                  <img src="./assets/images/tb.png" width="1602" height="903" loading="lazy"
-                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-wrapper">
-                    <div class="card-tag">
-                      <a href="#" class="span hover-2">#Verification</a>
-
-                      <a href="#" class="span hover-2">#UVM</a>
-                    </div>
-
-                    <div class="wrapper">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">6 mins read</span>
-                    </div>
-                  </div>
-
-                  <h3 class="headline headline-3">
-                    <a href="https://github.com/andreemedeiros/Huffman-UVM" class="card-title hover-2">
-                      UVM
-                    </a>
-                  </h3>
-
-                  <div class="card-wrapper">
-
-                    <div class="profile-card">
-                      <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
-                        class="profile-banner">
-
-                      <div>
-                        <p class="card-title">André</p>
-
-                        <p class="card-subtitle">25 Nov 2022</p>
-                      </div>
-                    </div>
-
-                    <a href="https://github.com/andreemedeiros/Huffman-UVM" class="card-btn">Read more</a>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <!--- Linux --->
-            <li>
-              <div class="card feature-card">
-
-                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
-                  <img src="./assets/images/linux.png" width="1602" height="903" loading="lazy"
-                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-wrapper">
-                    <div class="card-tag">
-                      <a href="#" class="span hover-2">#Linux</a>
-
-                      <a href="#" class="span hover-2">#Script</a>
-                    </div>
-
-                    <div class="wrapper">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">6 mins read</span>
-                    </div>
-                  </div>
-
-                  <h3 class="headline headline-3">
-                    <a href="https://github.com/andreemedeiros/Linux" class="card-title hover-2">
-                      Linux
-                    </a>
-                  </h3>
-
-                  <div class="card-wrapper">
-
-                    <div class="profile-card">
-                      <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
-                        class="profile-banner">
-
-                      <div>
-                        <p class="card-title">André</p>
-
-                        <p class="card-subtitle">25 Nov 2022</p>
-                      </div>
-                    </div>
-
-                    <a href="https://github.com/andreemedeiros/Linux" class="card-btn">Read more</a>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <!--- C++ --->
-            <li>
-              <div class="card feature-card">
-
-                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
-                  <img src="./assets/images/cpp.png" width="1602" height="903" loading="lazy"
-                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-wrapper">
-                    <div class="card-tag">
-                      <a href="#" class="span hover-2">#SW</a>
-
-                      <a href="#" class="span hover-2">#C/C++</a>
-                    </div>
-
-                    <div class="wrapper">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">6 mins read</span>
-                    </div>
-                  </div>
-
-                  <h3 class="headline headline-3">
-                    <a href="https://github.com/andreemedeiros/Sistema-Supermercado" class="card-title hover-2">
-                      C++.
-                    </a>
-                  </h3>
-
-                  <div class="card-wrapper">
-
-                    <div class="profile-card">
-                      <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
-                        class="profile-banner">
-
-                      <div>
-                        <p class="card-title">André</p>
-
-                        <p class="card-subtitle">25 Nov 2022</p>
-                      </div>
-                    </div>
-
-                    <a href="https://github.com/andreemedeiros/Sistema-Supermercado" class="card-btn">Read more</a>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <!--- RTOS --->
-            <li>
-              <div class="card feature-card">
-
-                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
-                  <img src="./assets/images/RTOS.png" width="1602" height="903" loading="lazy"
-                    alt="Self-observation is the first step of inner unfolding" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-wrapper">
-                    <div class="card-tag">
-                      <a href="#" class="span hover-2">#RTOS</a>
-
-                      <a href="#" class="span hover-2">#FreeRTOS</a>
-                    </div>
-
-                    <div class="wrapper">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="span">6 mins read</span>
-                    </div>
-                  </div>
-
-                  <h3 class="headline headline-3">
-                    <a href="https://github.com/andreemedeiros/Casa-Inteligente" class="card-title hover-2">
-                      RTOS
-                    </a>
-                  </h3>
-
-                  <div class="card-wrapper">
-
-                    <div class="profile-card">
-                      <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
-                        class="profile-banner">
-
-                      <div>
-                        <p class="card-title">André</p>
-
-                        <p class="card-subtitle">25 Nov 2022</p>
-                      </div>
-                    </div>
-
-                    <a href="https://github.com/andreemedeiros/Casa-Inteligente" class="card-btn">Read more</a>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <a href="#" class="btn btn-secondary">
-            <span class="span">Show More Posts</span>
-
-            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-          </a>
-
+          <p class="hero-text">
+            I believe that the combination of creativity, analytical thinking and technical skills is essential
+            to face complex challenges and achieve extraordinary results.
+          </p>
         </div>
-
-        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
-
-      </section>
-
-
-
-
-
-
-      <!-------------------------------- FOOTER ---------------------------------->
-      <footer>
-        <div class="container">
-
-          <div class="card footer">
-
-            <div class="section footer-top">
-
-              <div class="footer-brand">
-
-                <a href="#Contact" class="headline headline-3 section-title">
-                  Contact
-                </a>
-
-                <p class="footer-list-title">Address</p>
-
-                <address class="footer-text address">
-                  andre.escariao1@gmail.com <br>
-                  Campina Grande - Paraíba, Brazil
-                </address>
-
-              </div>
-
+        <div class="hero-banner">
+          <div class="perfil-container">
+            <img class="perfil" src="./assets/images/autor.png" alt="André">
+            <div class="informacoes">
+              <h2>André Medeiros</h2>
+              <h4>Undergraduate in Electrical Engineering</h4>
+              <h4>Undergraduate in Analysis and Systems Development</h4>
+              <h5>Campina Grande - Praíba, Brazil</h5>
             </div>
-
-            <div class="footer-bottom">
-
-              <p class="copyright">
-                &copy; Developed by <a href="#" class="copyright-link">andreemedeiros.</a>
-              </p>
-
-              <ul class="social-list">
-
-                <li>
-                  <a href="https://www.linkedin.com/in/andreemedeiros/" class="social-link">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-
-                    <span class="span">LinkedIn</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="social-link">
-                    <ion-icon name="logo-instagram"></ion-icon>
-
-                    <span class="span">Instagram</span>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://github.com/andreemedeiros" class="social-link">
-                    <ion-icon name="logo-github"></ion-icon>
-
-                    <span class="span">Github</span>
-                  </a>
-                </li>
-
-              </ul>
-
-            </div>
-
           </div>
-
         </div>
-      </footer>
-
-
-
-
-
-      <!------------------------------ BACK TO TOP ------------------------------>
-      <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
-        <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
-      </a>
-
-      <!------------------------------ custom js link ------------------------------>
-      <script src="./assets/js/script.js"></script>
-
-      <!------------------------------ ionicon link ------------------------------>
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+      </div>
+      <div class="container">
+      </div>
+      <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+      <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+    </section>
+  </main>
+  <!----------------- ASIDE ----------------------->
+  <aside class="container">
+    <!--------------------------- PROJETOS --------------------------------->
+    <section class="feature" id="Projects" aria-label="Projects">
+      <div class="container">
+        <h2 class="headline headline-2 section-title">
+          <span class="span">Projects</span>
+        </h2>
+        <p class="section-text">
+          Project portfolio
+        </p>
+        <ul class="feature-list">
+          <!--- CPU MIPS --->
+          <li>
+            <div class="card feature-card">
+              <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                <img src="./assets/images/cpu.png" width="1602" height="903" loading="lazy"
+                  alt="Self-observation is the first step of inner unfolding" class="img-cover">
+              </figure>
+              <div class="card-content">
+                <div class="card-wrapper">
+                  <div class="card-tag">
+                    <a href="#" class="span hover-2">#CPU</a>
+                    <a href="#" class="span hover-2">#MIPS</a>
+                  </div>
+                  <div class="wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">3 mins read</span>
+                  </div>
+                </div>
+                <h3 class="headline headline-3">
+                  <a href="https://github.com/andreemedeiros/CPU-MIPS" class="card-title hover-2">
+                    CPU-MIPS
+                  </a>
+                </h3>
+                <div class="card-wrapper">
+                  <div class="profile-card">
+                    <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
+                      class="profile-banner">
+                    <div>
+                      <p class="card-title">André</p>
+                      <p class="card-subtitle">25 Nov 2022</p>
+                    </div>
+                  </div>
+                  <a href="https://github.com/andreemedeiros/CPU-MIPS" class="card-btn">Read more</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--- UVM --->
+          <li>
+            <div class="card feature-card">
+              <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                <img src="./assets/images/tb.png" width="1602" height="903" loading="lazy"
+                  alt="Self-observation is the first step of inner unfolding" class="img-cover">
+              </figure>
+              <div class="card-content">
+                <div class="card-wrapper">
+                  <div class="card-tag">
+                    <a href="#" class="span hover-2">#Verification</a>
+                    <a href="#" class="span hover-2">#UVM</a>
+                  </div>
+                  <div class="wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">6 mins read</span>
+                  </div>
+                </div>
+                <h3 class="headline headline-3">
+                  <a href="https://github.com/andreemedeiros/Adder-UVM" class="card-title hover-2">
+                    UVM
+                  </a>
+                </h3>
+                <div class="card-wrapper">
+                  <div class="profile-card">
+                    <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
+                      class="profile-banner">
+                    <div>
+                      <p class="card-title">André</p>
+                      <p class="card-subtitle">25 Nov 2022</p>
+                    </div>
+                  </div>
+                  <a href="https://github.com/andreemedeiros/Adder-UVM" class="card-btn">Read more</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--- Linux --->
+          <li>
+            <div class="card feature-card">
+              <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                <img src="./assets/images/linux.png" width="1602" height="903" loading="lazy"
+                  alt="Self-observation is the first step of inner unfolding" class="img-cover">
+              </figure>
+              <div class="card-content">
+                <div class="card-wrapper">
+                  <div class="card-tag">
+                    <a href="#" class="span hover-2">#Linux</a>
+                    <a href="#" class="span hover-2">#Script</a>
+                  </div>
+                  <div class="wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">6 mins read</span>
+                  </div>
+                </div>
+                <h3 class="headline headline-3">
+                  <a href="https://github.com/andreemedeiros/Linux" class="card-title hover-2">
+                    Linux
+                  </a>
+                </h3>
+                <div class="card-wrapper">
+                  <div class="profile-card">
+                    <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
+                      class="profile-banner">
+                    <div>
+                      <p class="card-title">André</p>
+                      <p class="card-subtitle">25 Nov 2022</p>
+                    </div>
+                  </div>
+                  <a href="https://github.com/andreemedeiros/Linux" class="card-btn">Read more</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--- C++ --->
+          <li>
+            <div class="card feature-card">
+              <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                <img src="./assets/images/cpp.png" width="1602" height="903" loading="lazy"
+                  alt="Self-observation is the first step of inner unfolding" class="img-cover">
+              </figure>
+              <div class="card-content">
+                <div class="card-wrapper">
+                  <div class="card-tag">
+                    <a href="#" class="span hover-2">#SW</a>
+                    <a href="#" class="span hover-2">#C/C++</a>
+                  </div>
+                  <div class="wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">6 mins read</span>
+                  </div>
+                </div>
+                <h3 class="headline headline-3">
+                  <a href="https://github.com/andreemedeiros/Sistema-Supermercado" class="card-title hover-2">
+                    C++.
+                  </a>
+                </h3>
+                <div class="card-wrapper">
+                  <div class="profile-card">
+                    <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
+                      class="profile-banner">
+                    <div>
+                      <p class="card-title">André</p>
+                      <p class="card-subtitle">25 Nov 2022</p>
+                    </div>
+                  </div>
+                  <a href="https://github.com/andreemedeiros/Sistema-Supermercado" class="card-btn">Read more</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!--- RTOS --->
+          <li>
+            <div class="card feature-card">
+              <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                <img src="./assets/images/RTOS.png" width="1602" height="903" loading="lazy"
+                  alt="Self-observation is the first step of inner unfolding" class="img-cover">
+              </figure>
+              <div class="card-content">
+                <div class="card-wrapper">
+                  <div class="card-tag">
+                    <a href="#" class="span hover-2">#RTOS</a>
+                    <a href="#" class="span hover-2">#FreeRTOS</a>
+                  </div>
+                  <div class="wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">6 mins read</span>
+                  </div>
+                </div>
+                <h3 class="headline headline-3">
+                  <a href="https://github.com/andreemedeiros/Casa-Inteligente" class="card-title hover-2">
+                    RTOS
+                  </a>
+                </h3>
+                <div class="card-wrapper">
+                  <div class="profile-card">
+                    <img src="./assets/images/autor.png" width="48" height="48" loading="lazy" alt="Joseph"
+                      class="profile-banner">
+                    <div>
+                      <p class="card-title">André</p>
+                      <p class="card-subtitle">25 Nov 2022</p>
+                    </div>
+                  </div>
+                  <a href="https://github.com/andreemedeiros/Casa-Inteligente" class="card-btn">Read more</a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <a href="#" class="btn btn-secondary">
+          <span class="span">Show More Posts</span>
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+      </div>
+      <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+    </section>
+  </aside>
+  <!-------------------------------- FOOTER ---------------------------------->
+  <footer>
+    <div class="container">
+      <div class="card footer">
+        <div class="section footer-top">
+          <div class="footer-brand">
+            <a href="#Contact" class="headline headline-3 section-title">
+              Contact
+            </a>
+            <p class="footer-list-title">Address</p>
+            <address class="footer-text address">
+              andre.escariao1@gmail.com <br>
+              Campina Grande - Paraíba, Brazil
+            </address>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">andreemedeiros.</a>
+          </p>
+          <ul class="social-list">
+            <li>
+              <a href="https://www.linkedin.com/in/andreemedeiros/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/andreemedeiros" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+                <span class="span">Github</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!------------------------------ BACK TO TOP ------------------------------>
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+  <!------------------------------ custom js link ------------------------------>
+  <script src="./assets/js/script.js"></script>
+  <!------------------------------ ionicon link ------------------------------>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
